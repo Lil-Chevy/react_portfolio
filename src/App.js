@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
+import Resume from "./components/Resume";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
-import PortfolioList from "./components/PortfolioList";
 
 function App() {
   const [categories] = useState([
@@ -30,6 +30,7 @@ function App() {
       <main>
         <About></About>
         <Portfolio currentCategory={currentCategory}></Portfolio>
+        <Resume />
       </main>
       <ContactForm></ContactForm>
       <Footer />
