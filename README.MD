@@ -13,3 +13,7 @@ To help me display all my projects that have been completed and i have the desir
 ## GITHUB REPOSITORY
 
 https://github.com/Lil-Chevy/react_portfolio
+
+## Deployed Application
+
+http://lil-chevy.github.io/react_portfolio
