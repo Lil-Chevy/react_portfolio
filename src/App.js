@@ -4,6 +4,7 @@ import About from "./components/About";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import PortfolioList from "./components/PortfolioList";
 
 function App() {
   const [categories] = useState([
