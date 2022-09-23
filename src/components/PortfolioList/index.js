@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import photo from "../../assets/small/portfolio/photo.png";
 import photo0 from "../../assets/small/portfolio/0.png";
 import photo1 from "../../assets/small/portfolio/1.png";
 import photo2 from "../../assets/small/portfolio/2.png";
@@ -48,6 +49,10 @@ function PortfolioList() {
   ]);
   return (
     <div>
+      <a href="https://site-seers.herokuapp.com/">
+        <img src={photo} alt="Site Seers" />
+        GitHub: https://github.com/jorge30fm/SiteSeers
+      </a>
       <a href="https://lernantino.github.io/run-buddy/">
         <img src={photo0} alt="Run Buddy Website" />
         GitHub: https://github.com/Lil-Chevy/run-buddy
