@@ -17,3 +17,7 @@ https://github.com/Lil-Chevy/react_portfolio
 ## Deployed Application
 
 http://lil-chevy.github.io/react_portfolio
+
+## To Resolve Legacy Error
+
+please add "export NODE_OPTIONS=--openssl-legacy-provider" into the terminal command line before running to prevent the legacy error while this is being worked on.
