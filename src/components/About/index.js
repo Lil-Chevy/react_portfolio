@@ -12,10 +12,10 @@ function About() {
       />
       <div className="my-2">
         <p>
-          Hello, and welcome to my Resume page i built with React.js! I am
-          excited to start my career in Front End Development. Please feel free
-          to check my Resume and some of the project i have completed in my
-          repository! Have an awesome day!
+          Hello, and welcome to my Portfolio! I have made this page to display
+          some of my capabilities as a Full Stack Developer. Please feel free to
+          checkout some of the links below or contact me for possible future
+          employment. Enjoy yourself and have a wonderful day!
         </p>
       </div>
     </section>

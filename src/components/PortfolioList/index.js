@@ -48,35 +48,57 @@ function PortfolioList() {
     },
   ]);
   return (
-    <div>
-      <a href="https://site-seers.herokuapp.com/">
-        <img src={photo} alt="Site Seers" />
-        GitHub: https://github.com/jorge30fm/SiteSeers
-      </a>
-      <a href="https://lernantino.github.io/run-buddy/">
-        <img src={photo0} alt="Run Buddy Website" />
-        GitHub: https://github.com/Lil-Chevy/run-buddy
-      </a>
-      <a href="https://quiet-atoll-98867.herokuapp.com/">
-        <img src={photo1} alt="Personal Note Taker" />
-        GitHub: https://github.com/Lil-Chevy/personal_note_taker
-      </a>
-      <a href="https://github.com/Lil-Chevy/generate_my_readme">
-        <img src={photo2} alt="Read Me generator" />
-        GitHub: https://github.com/Lil-Chevy/generate_my_readme
-      </a>
-      <a href="https://lil-chevy.github.io/My_Work_Day_scheduler/">
-        <img src={photo3} alt="Work Day Scheduler App" />
-        GitHub: https://github.com/Lil-Chevy/My_Work_Day_scheduler
-      </a>
-      <a href="https://github.com/Lil-Chevy/robot-gladiators">
-        <img src={photo4} alt="Robot Gladiators" />
-        GitHub: https://github.com/Lil-Chevy/robot-gladiators
-      </a>
-      <a href="https://limitless-lowlands-09863.herokuapp.com/">
-        <img src={photo5} alt="Bug Bash!" />
-        GitHub: https://github.com/glo6al/project-1-tm-9
-      </a>
+    <div className="portfolio">
+      <section className="portfolio-card">
+        <a href="https://site-seers.herokuapp.com/">
+          <img src={photo} alt="Site Seers" className="img-thumbnail" />
+          <p className="img-thumbnail-desc">Site Seers</p>
+        </a>
+      </section>
+      <section className="portfolio-card">
+        <a href="https://lernantino.github.io/run-buddy/">
+          <img src={photo0} alt="Run Buddy Website" className="img-thumbnail" />
+          Run Buddy
+        </a>
+      </section>
+      <section className="portfolio-card">
+        <a href="https://quiet-atoll-98867.herokuapp.com/">
+          <img
+            src={photo1}
+            alt="Personal Note Taker"
+            className="img-thumbnail"
+          />
+          Personal Note Taker
+        </a>
+      </section>
+      <section className="portfolio-card">
+        <a href="https://github.com/Lil-Chevy/generate_my_readme">
+          <img src={photo2} alt="Read Me generator" className="img-thumbnail" />
+          ReadMe.md Generator
+        </a>
+      </section>
+      <section className="portfolio-card">
+        <a href="https://lil-chevy.github.io/My_Work_Day_scheduler/">
+          <img
+            src={photo3}
+            alt="Work Day Scheduler App"
+            className="img-thumbnail"
+          />
+          Work Day Scheduler
+        </a>
+      </section>
+      <section className="portfolio-card">
+        <a href="https://github.com/Lil-Chevy/robot-gladiators">
+          <img src={photo4} alt="Robot Gladiators" className="img-thumbnail" />
+          Robot Gladiators
+        </a>
+      </section>
+      <section className="portfolio-card">
+        <a href="https://limitless-lowlands-09863.herokuapp.com/">
+          <img src={photo5} alt="Bug Bash!" className="img-thumbnail" />
+          Bug Bash
+        </a>
+      </section>
     </div>
   );
 }
