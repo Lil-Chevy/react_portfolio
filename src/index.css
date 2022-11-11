@@ -227,20 +227,15 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-/* .card {
-  width: 25%;
-  text-align: center;
-} */
-
 .portfolio {
   display: flex;
   max-width: 50%;
-  /* justify-content: center; */
   flex-shrink: 1;
 }
 
 .portfolio-card {
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
   font-size: small;
   min-width: 25%;
   max-width: 100%;

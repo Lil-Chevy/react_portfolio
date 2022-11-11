@@ -104,3 +104,5 @@ function PortfolioList() {
 }
 
 export default PortfolioList;
+
+// must add section for media sizes to come up with a mobile first design which should allow for the cards to display in the way we need
