@@ -325,3 +325,20 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+/* Please add smaller screen sizes for mobile designs */
+
+@media screen and (min-width: 640px) {
+}
+
+/* col-md */
+@media screen and (min-width: 768px) {
+}
+
+/* col-lg */
+@media screen and (min-width: 992px) {
+}
+
+/* col-xl */
+@media screen and (min-width: 1200px) {
+}
